@@ -34,10 +34,12 @@ html, body {
   color: #38bdf8;
 }
 
+
 #welcome-section {
   height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
-  color: white;
+
+  background: linear-gradient(135deg, #cfe3d0, #f1ead6);
+  color: #1e3d2d; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,11 +51,13 @@ html, body {
 #welcome-section h1 {
   font-size: 3rem;
   margin-bottom: 10px;
+  color: #1e3d2d;
 }
 
 #welcome-section p {
   font-size: 1.2rem;
-  opacity: 0.9;
+  opacity: 0.85;
+  color: #1e3d2d;
 }
 
 #projects {
@@ -89,7 +93,7 @@ html, body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.05));
+  background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.05));
 }
 
 .project-tile:hover {
@@ -100,7 +104,7 @@ html, body {
 .project-tile a {
   position: absolute;
   inset: 0;
-  color: white;
+  color: #1e3d2d;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -120,35 +124,3 @@ html, body {
   opacity: 0.85;
 }
 
-/* ===== AESTHETIC PASTEL COLORS ===== */
-.project1 {
-  background-color: #f6d6bd; /* Soft Peach */
-}
-
-.project2 {
-  background-color: #a8dadc; /* Soft Aqua */
-}
-
-.project3 {
-  background-color: #ffd6f6; /* Soft Pink */
-}
-
-.project4 {
-  background-color: #c4b7ff; /* Soft Lavender */
-}
-
-@media (max-width: 600px) {
-  #navbar {
-    flex-direction: column;
-    padding: 12px;
-    gap: 10px;
-  }
-
-  #welcome-section h1 {
-    font-size: 2.2rem;
-  }
-
-  #projects h2 {
-    font-size: 2rem;
-  }
-}
