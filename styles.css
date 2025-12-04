@@ -1,16 +1,16 @@
 /* GENERAL */
 body {
-    background-color: #f5ebe0; /* soft warm beige */
-    color: #3a2e2a; /* dark mocha */
+    background-color: #a2bebb; 
+    color: #614942; 
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-/* NAVIGATION */
+
 nav {
-    background-color: #2b2d42; /* muted charcoal */
+    background-color: #2b2d42; 
     padding: 20px 30px;
     position: sticky;
     top: 0;
@@ -47,7 +47,7 @@ nav {
     left: 0;
     width: 0%;
     height: 2px;
-    background: #e07a5f; /* peach accent */
+    background: #e07a5f; 
     transition: width 0.3s ease;
 }
 
@@ -59,9 +59,8 @@ nav {
     width: 100%;
 }
 
-/* HERO */
+
 #hero {
-    background: url('paul.jpg') no-repeat center center/cover;
     position: relative;
     height: 100vh;
     display: flex;
@@ -91,7 +90,7 @@ nav {
     z-index: 2;
 }
 
-/* PROJECTS */
+
 #projects ul {
     list-style-type: none;
     padding: 0;
@@ -100,7 +99,7 @@ nav {
 }
 
 #projects li {
-    background: #fffaf3; /* warm white */
+    background: #fffaf3; 
     padding: 20px;
     margin: 15px 0;
     border-radius: 12px;
@@ -115,19 +114,19 @@ nav {
 
 #projects h3 a {
     text-decoration: none;
-    color: #3a2e2a; /* mocha */
+    color: #3a2e2a; 
     transition: color 0.3s ease;
 }
 
 #projects h3 a:hover {
-    color: #e07a5f; /* peach highlight */
+    color: #e07a5f; 
 }
 
 #projects p {
     color: #6f5d56;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 40px 20px;
@@ -148,7 +147,7 @@ footer {
     transform: scale(1.2);
 }
 
-/* ANIMATION */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -160,7 +159,7 @@ footer {
     }
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     #hero h1 {
         font-size: 2.5em;
